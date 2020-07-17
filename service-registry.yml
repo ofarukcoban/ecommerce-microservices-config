@@ -15,4 +15,4 @@ eureka:
     fetchRegistry: false
     registerWithEureka: false
     serviceUrl:
-      defaultZone: http://service-registry:9091/eureka
+      defaultZone: http://service-registry:8761/eureka
