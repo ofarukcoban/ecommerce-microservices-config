@@ -1,0 +1,11 @@
+info:
+  app:
+    name: Ecommerce microservice
+    description: Microservice
+
+spring:
+  zipkin:
+    base-url: http://zipkin-server:9411/
+    sender:
+      type: web
+      probability: 1
