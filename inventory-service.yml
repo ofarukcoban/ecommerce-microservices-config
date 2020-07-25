@@ -27,5 +27,5 @@ spring:
       path: /h2inventory
       enabled: true
       settings:
-        trace: security
+        trace: false
         web-allow-others: false
