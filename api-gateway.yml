@@ -13,13 +13,11 @@ eureka:
 zuul:
   routes:
     product-service:
-      path: /product/**
-    inventory-service:
-      path: /inventory/**
+      path: /api/v1/product/**
     user-service:
-      path: /user/**
+      path: /api/v1/user/**
     order-service:
-      path: /order/**
+      path: /api/v1/order/**
     host:
       connect-timeout-millis: 5000
       socket-timeout-millis: 10000
