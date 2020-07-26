@@ -27,5 +27,5 @@ spring:
       path: /h2order
       enabled: true
       settings:
-        trace: security
+        trace: false
         web-allow-others: false
