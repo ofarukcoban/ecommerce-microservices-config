@@ -4,7 +4,7 @@ info:
     description: Order Microservice
 
 server:
-  port: 8383
+  port: 8181
 
 eureka:
   client:
