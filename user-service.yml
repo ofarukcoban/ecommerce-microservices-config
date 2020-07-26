@@ -4,7 +4,7 @@ info:
     description: User Microservice
 
 server:
-  port: 8484
+  port: 8383
 
 eureka:
   client:
